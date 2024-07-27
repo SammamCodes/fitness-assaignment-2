@@ -2,6 +2,7 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -109,3 +110,75 @@ margin: 6px 0 ;
     display: none;
   }
 }
+.fontsec{
+    height: 100%;
+    width: 100%;
+    min-height: 120vh;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center ;
+    gap: 40rem;
+    top: 50px;
+}
+section{
+    padding:0 3%;
+    
+}
+.fontsec-text{
+    width: 520px;
+height: 282px;
+left: 176px;
+top: 192px;
+}
+.fontsec-text h1{
+    color: rgb(255, 255, 255);
+    font-weight: 889;
+    line-height: 119%;
+    font-family: Inter;
+    font-size: 77.9px;
+    
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.fontsec-text p{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+
+}
+.image-bosbe-one{
+    width: 700px;
+    height: auto;
+}
+.katapaharp{
+    display: inline-block;
+    color: white;
+    background: rgb(230, 83, 60);
+    border: 1px solid transparent;
+    padding: 12px 30px ;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.katapahar{
+    display: inline-block;
+    color: white;
+    background:none;
+    border: 1px solid white;
+    padding: 12px 30px ;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+
