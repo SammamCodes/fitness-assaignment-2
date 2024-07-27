@@ -121,6 +121,7 @@ margin: 6px 0 ;
     align-items:center ;
     gap: 40rem;
     top: 50px;
+    
 }
 section{
     padding:0 6%;
@@ -146,7 +147,7 @@ top: 192px;
 width: 520px;
 height: 282px;
 left: 176px;
-top: 192px;
+top: 100px;
 
 }
 .fontsec-text p{
@@ -158,7 +159,7 @@ top: 192px;
 width: 520px;
 height: 48px;
 left: 176px;
-top: 502px;
+top: 400px;
 
 }
 .image-bosbe-one{
@@ -177,6 +178,7 @@ top: 502px;
     border-radius: 30px;
     text-transform: uppercase;
     transition: all .55s ease;
+    top: 450px;
     
 }
 .katapahar{
@@ -191,7 +193,8 @@ top: 502px;
     border-radius: 30px;
     text-transform: uppercase;
     transition: all .55s ease;
-    
+    top: 450px;
+
    
 }
 .image-bosbe-one{
