@@ -261,3 +261,12 @@ font-family: Inter;
 font-size: 12.9px;
 font-weight: 399.9;
 }
+.fa-duotone{
+    position: absolute;
+width: 14.63px;
+height: 20px;
+left: 1020px;
+top: 330px;
+
+color: rgb(250, 250, 249);
+}
