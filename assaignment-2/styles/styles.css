@@ -199,8 +199,36 @@ top: 400px;
 }
 .image-bosbe-one{
     position: absolute;
-width: 349px;
-height: 580px;
-left: 1200px;
+width: 400px;
+height: 680px;
+left: 1150px;
 top: 30px;
+}
+.btn-2{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 14px;
+backdrop-filter: blur(20%);
+background: rgba(48, 48, 48, 0.54);
+position: absolute;
+width: 206px;
+height: 96px;
+left: 1020px;
+top: 470px;
+
+text-align: center;
+position: absolute;
+z-index: 1;
+
+
+}
+.circle{
+    background: rgb(230, 83, 60);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 13px;
+
 }
