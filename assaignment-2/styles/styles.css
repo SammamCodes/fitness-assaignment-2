@@ -237,7 +237,7 @@ z-index: 1;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 
-backdrop-filter: blur(20px);
+backdrop-filter: blur(20%);
 background: rgba(255, 255, 255, 0.1);
 position: absolute;
 width: 193px;
@@ -269,4 +269,34 @@ left: 1020px;
 top: 330px;
 
 color: rgb(250, 250, 249);
+}
+@media (max-width: 1320px) {
+    .fontsec-text h1 {
+        font-size: 75px;
+        position: absolute;
+width: 599.05px;
+height: 282px;
+left: 72px;
+top: 30px;
+    }
+ .fontsec-text p {
+        font-size: 14px;
+        position: absolute;
+width: 420px;
+height: 48px;
+left: 60px;
+top: 350px;
+    }
+   
+       .katapaharp, .katapahar {
+        margin-bottom: 10px;
+        width:224px; 
+        text-align:center;
+        
+
+    }
+    .link-container {
+        flex-direction: column;
+     
+    }
 }
