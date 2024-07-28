@@ -84,7 +84,9 @@ color:rgb(255, 255, 255) ;
     background:  rgb(255, 255, 255);
 }
 
-/* finish hero section with nav-bar */ 
+/* finish hero section with nav-bar */
+
+
 @media only  screen and ( max-width: 1320px ) {
     header{
         padding: 0 50px;
@@ -95,26 +97,28 @@ color:rgb(255, 255, 255) ;
         padding: 0 30px;
     }
 }
-@media  screen and ( max-width: 900px ) 
-  .reo1{
-    display: block;
-    cursor: pointer;
-  }
+
   @media  screen and ( max-width: 576px ) {
     .reo1{
       display: block;
       cursor: pointer;
+ 
     }
    .reo1 .line{
 width: 30px;
 height: 3px;
 background:rgb(255, 255, 255);
 margin: 6px 0 ;
+background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   }
   .nav-bar{
     display: none;
+   
+   
   }
+
 }
+
 .fontsec{
     height: 100%;
     width: 100%;
@@ -375,4 +379,24 @@ z-index: 1;
         font-size: 10px;
 
     }
+    .fontsec {
+        background: #0D0D0D;;
+        top: 0;
+       
+        
+
+}
+header, section, .nav-bar{
+    background: #0D0D0D;
+}
+nav{
+    background: #0D0D0D;
+}
+.image-bosbe-one{
+    background: #0D0D0D;
+    width: 100%;  
+    height: 87%;
+    left: 0px;
+}
+}
   /* hero section and tough part totally end here man */
