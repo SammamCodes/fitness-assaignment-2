@@ -395,7 +395,7 @@ nav{
 .image-bosbe-one{
     background: #0D0D0D;
     width: 100%;  
-    height: 87%;
+    height: 86.6%;
     left: 0px;
 }
 }
@@ -431,6 +431,39 @@ text-align: center;
  @media (max-width: 576px){
     .Change-Your-Habits{
         left: 0px;
-        top: 1143px;
+        top: 1144px;
+        background-color: black;
     }
  }
+.prothom-img{
+  
+    clip-path: circle();
+    position: absolute;
+width: 300px;
+
+left: 120px;
+top:1000px;
+
+}
+.ditiyo-img{
+    clip-path: circle();
+    position: absolute;
+width: 300px;
+left: 490px;
+top:1000px;
+
+}
+.tritiyo-img{
+    clip-path: circle();
+    position: absolute;
+width: 300px;
+left: 840px;
+top:1000px;
+}
+.coturtho-img{
+    clip-path: circle();
+    position: absolute;
+width: 300px;
+left: 1190px;
+top:1000px;
+}
