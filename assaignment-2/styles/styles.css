@@ -449,7 +449,7 @@ top:1000px;
 .tuktak{
     text-align: left;
     left: 30px;
-    top: 1300px ;
+    top: 1350px ;
     z-index: 1;
     position: absolute;
  
@@ -476,7 +476,7 @@ top:1000px;
     }
 
 
-/* kaj shuru */
+/* kaj shuru ditiyo image er */
 
 .ditiyo-img{
     clip-path: circle();
@@ -486,6 +486,38 @@ left: 490px;
 top:1000px;
 
 }
+.fuktak{
+    text-align: left;
+    left: 440px;
+    top: 1350px ;
+    z-index: 1;
+    position: absolute;
+
+}
+@media only  screen and ( max-width: 576px ){
+  
+    .fuktak{
+        position: absolute;
+        z-index: 2;
+        top: 2120px;
+        left: 80px;
+        background-color:black;}
+        .ditiyo-img{
+            position: absolute;
+            z-index: 2;
+            top: 1800px;
+            left: 67px;
+        }
+    }
+
+    
+
+
+
+
+
+
+
 .tritiyo-img{
     clip-path: circle();
     position: absolute;
@@ -504,7 +536,7 @@ top:1000px;
 .matirbap{
     color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 48px;
+font-size: 30px;
 font-weight: 900;
 line-height: 120%;
 letter-spacing: 0%;
@@ -513,3 +545,12 @@ text-align: center;
 
 }
 
+.fatirbap{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
