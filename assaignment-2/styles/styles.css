@@ -435,6 +435,7 @@ text-align: center;
         background-color: black;
     }
  }
+ 
 .prothom-img{
   
     clip-path: circle();
@@ -445,6 +446,17 @@ left: 120px;
 top:1000px;
 
 }
+@media screen {
+    .prothom-img{
+        position: absolute;
+        z-index: 2;
+        top: 1380px;
+        left: 67px;
+    }
+}
+
+/* kaj shuru */
+
 .ditiyo-img{
     clip-path: circle();
     position: absolute;
@@ -466,4 +478,33 @@ top:1000px;
 width: 300px;
 left: 1190px;
 top:1000px;
+}
+
+.matirbap{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.tuktak{
+    text-align: left;
+    left: 30px;
+    top: 1300px ;
+    z-index: 1;
+    position: absolute;
+ 
+}
+@media screen {
+    .tuktak{
+        position: absolute;
+        z-index: 2;
+        top: 1690px;
+        left: 67px;
+        background-color:black;
+    }
 }
