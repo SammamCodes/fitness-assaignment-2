@@ -446,14 +446,35 @@ left: 120px;
 top:1000px;
 
 }
-@media screen {
-    .prothom-img{
-        position: absolute;
-        z-index: 2;
-        top: 1380px;
-        left: 67px;
-    }
+.tuktak{
+    text-align: left;
+    left: 30px;
+    top: 1300px ;
+    z-index: 1;
+    position: absolute;
+ 
 }
+@media only  screen and ( max-width: 576px ){
+  
+        .tuktak{
+            position: absolute;
+            z-index: 2;
+            top: 1690px;
+            left: 67px;
+            background-color:black;
+        
+    }
+    
+    
+  
+        .prothom-img{
+            position: absolute;
+            z-index: 2;
+            top: 1380px;
+            left: 67px;
+        }
+    }
+
 
 /* kaj shuru */
 
@@ -491,20 +512,4 @@ text-align: center;
 
 
 }
-.tuktak{
-    text-align: left;
-    left: 30px;
-    top: 1300px ;
-    z-index: 1;
-    position: absolute;
- 
-}
-@media screen {
-    .tuktak{
-        position: absolute;
-        z-index: 2;
-        top: 1690px;
-        left: 67px;
-        background-color:black;
-    }
-}
+
