@@ -155,8 +155,8 @@ top: 192px;
     position: absolute;
 width: 520px;
 height: 282px;
-left: 107px;
-top: 100px;
+left: 85px;
+top: 30px;
 
 }
 .fontsec-text p{
@@ -167,13 +167,14 @@ top: 100px;
     position: absolute;
 width: 520px;
 height: 48px;
-left: 107px;
-top: 400px;
+left: 85px;
+top: 320px;
 
 }
 .image-bosbe-one{
     width: 700px;
     height: auto;
+  
 }
 .katapaharp{
     display: inline-block;
@@ -190,6 +191,7 @@ top: 400px;
     top: 450px;
     
 }
+
 .katapahar{
     display: inline-block;
     color: white;
@@ -202,7 +204,7 @@ top: 400px;
     border-radius: 30px;
     text-transform: uppercase;
     transition: all .55s ease;
-    top: 450px;
+    top: 480px;
 
    
 }
@@ -210,8 +212,8 @@ top: 400px;
     position: absolute;
 width: 400px;
 height: 680px;
-left: 1150px;
-top: 30px;
+left: 850px;
+top: -15px;
 }
 .btn-2{
     box-sizing: border-box;
@@ -222,8 +224,8 @@ background: rgba(48, 48, 48, 0.54);
 position: absolute;
 width: 206px;
 height: 96px;
-left: 1050px;
-top: 470px;
+left: 750px;
+top: 440px;
 text-align: center;
 
 z-index: 1;
@@ -260,7 +262,7 @@ background: rgba(255, 255, 255, 0.1);
 position: absolute;
 width: 193px;
 height: 98px;
-left: 1380px;
+left: 1070px;
 top: 150px;
 position: absolute;
 z-index: 1;
@@ -284,13 +286,13 @@ font-weight: 399.9;
     position: absolute;
 width: 14.63px;
 height: 20px;
-left: 1020px;
+left: 770px;
 top: 330px;
 
 color: rgb(250, 250, 249);
 }
 
-@media (max-width: 576px) {
+@media only  screen and (max-width: 576px) {
     .fontsec-text h1 {
         font-size: 36px;
         position: absolute;
@@ -313,7 +315,7 @@ top: 200px;
 
 
 /* Responsive styles */
-@media (max-width: 576px) {
+@media only  screen and (max-width: 576px) {
   
     .link-container {
         flex-direction: column;
@@ -333,7 +335,7 @@ top: 100px;
 
 }
 
-@media (max-width: 576px) {
+@media only  screen and (max-width: 576px) {
     .image-bosbe-one{
         position: absolute;
 width: 353px;
@@ -342,7 +344,7 @@ left: 20px;
 top: 480px;
     }
 }
-@media (max-width: 576px){
+@media only  screen and (max-width: 576px){
     .btn-2{
         position: absolute;
 width: 155.74px;
@@ -369,7 +371,7 @@ position: absolute;
 z-index: 1;
     }
 }
-@media (max-width: 576px){
+@media only  screen and (max-width: 576px){
     .btn-3{width: 155.74px;
         height: 72.58px;
         left: 220px;
@@ -420,15 +422,16 @@ text-align: center;
  }
  .Change-Your-Habits{
     text-align: center;
-    left: 390px;
+    left: 250px;
     top:820px ;
+    align-items: center;
  }
  .Change{
     align-items: center;
 
  }
 
- @media (max-width: 576px){
+ @media only  screen and (max-width: 576px){
     .Change-Your-Habits{
         left: 0px;
         top: 1144px;
@@ -440,16 +443,16 @@ text-align: center;
   
     clip-path: circle();
     position: absolute;
-width: 300px;
+width: 220px;
 
-left: 120px;
+left: 80px;
 top:1000px;
 
 }
 .tuktak{
     text-align: left;
-    left: 30px;
-    top: 1350px ;
+    left: -10px;
+    top: 1250px ;
     z-index: 1;
     position: absolute;
  
@@ -472,6 +475,9 @@ top:1000px;
             z-index: 2;
             top: 1380px;
             left: 67px;
+            clip-path: circle();
+    position: absolute;
+width: 300px;
         }
     }
 
@@ -481,15 +487,15 @@ top:1000px;
 .ditiyo-img{
     clip-path: circle();
     position: absolute;
-width: 300px;
-left: 490px;
+width: 220px;
+left: 390px;
 top:1000px;
 
 }
 .fuktak{
     text-align: left;
-    left: 440px;
-    top: 1350px ;
+    left: 310px;
+    top: 1250px ;
     z-index: 1;
     position: absolute;
 
@@ -507,29 +513,65 @@ top:1000px;
             z-index: 2;
             top: 1800px;
             left: 67px;
+            clip-path: circle();
+            position: absolute;
+        width: 300px;
         }
     }
 
     
-
-
-
-
-
-
-
 .tritiyo-img{
     clip-path: circle();
     position: absolute;
-width: 300px;
-left: 840px;
+width: 220px;
+left: 690px;
 top:1000px;
 }
+.nuktak{
+    text-align: left;
+    left: 610px;
+    top: 1250px ;
+    z-index: 1;
+    position: absolute;}
+    .natirbap{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    @media only  screen and ( max-width: 576px ){
+  
+        .nuktak{
+            position: absolute;
+            z-index: 2;
+            top: 2560px;
+            left: 80px;
+            background-color:black;}
+            .tritiyo-img{
+                position: absolute;
+                z-index: 2;
+                top: 2225px;
+                left: 67px;
+                clip-path: circle();
+                position: absolute;
+            width: 300px;
+            }
+        }
+
+
+
+
+
+
+
 .coturtho-img{
     clip-path: circle();
     position: absolute;
-width: 300px;
-left: 1190px;
+width: 220px;
+left: 990px;
 top:1000px;
 }
 
@@ -554,3 +596,37 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center;
 }
+
+
+.kuktak{
+    text-align: left;
+    left: 920px;
+    top: 1250px ;
+    z-index: 1;
+    position: absolute;}
+    .katirbap{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;}
+        @media only  screen and ( max-width: 576px ){
+  
+            .kuktak{
+                position: absolute;
+                z-index: 2;
+                top: 2990px;
+                left: 80px;
+                background-color:black;}
+                .coturtho-img{
+                    position: absolute;
+                    z-index: 2;
+                    top: 2660px;
+                    left: 67px;
+                    clip-path: circle();
+                    position: absolute;
+                width: 300px;
+                }
+            }
