@@ -630,3 +630,33 @@ text-align: center;
                 width: 300px;
                 }
             }
+
+
+
+            /* second part is already finished */
+            /* pricing section starts from here start from here.....*/
+           
+        .ponchom-img{
+                position: absolute;
+                width: 600px;
+                left: 40px;
+                top:1450px;
+          }
+ .luktak{
+    text-align: left;
+    left: 680px;
+    top: 1450px ;
+    z-index: 1;
+    position: absolute;
+    background: #1A1A1A;
+    height: 320px;
+    width: 550px;
+ }
+ .costho-img{
+    clip-path: circle();
+    position: absolute;
+width: 200px;
+left: 850px;
+top:1455px;
+z-index: 2;
+ }
