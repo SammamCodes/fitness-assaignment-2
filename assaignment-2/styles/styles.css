@@ -799,7 +799,7 @@ button:hover {
 
 
 
-@media (max-width: 576px) {
+@media  only  screen and  (max-width: 576px) {
    .container {
        
         width: 180px;
@@ -850,3 +850,25 @@ button {
 }
 
 
+@media only  screen and ( max-width: 576px ){
+.soptom-img{
+    position: absolute;
+width: 115px;
+left: 
+10px;
+top:3865px;
+z-index: 6;
+}
+.iuktak{
+    text-align: left;
+    left: 105px;
+    top: 3862px ;
+    z-index: 4;
+    position: absolute;
+background: none;
+    height: 120px;
+    width: 350px;
+    size:0px;
+   
+}
+}
