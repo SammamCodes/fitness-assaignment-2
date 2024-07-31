@@ -660,3 +660,193 @@ left: 850px;
 top:1455px;
 z-index: 2;
  }
+ @media only  screen and ( max-width: 576px ){
+    .ponchom-img{
+        position: absolute;
+                width: 450px;
+                left: 0px;
+                top:3150px;
+    }
+
+  .luktak{
+    position: absolute;
+    z-index: 2;
+    top: 3500px;
+    left: 0px;
+    width: 100%;
+  }
+ }
+ @media only  screen and ( max-width: 576px ){
+    .costho-img{
+        position: absolute;
+        z-index: 3;
+        top: 3510px;
+        left: 125px;
+        clip-path: circle();
+        position: absolute;
+    width: 200px;
+              
+    }
+ }
+.soptom-img{
+    
+    position: absolute;
+width: 115px;
+left: 680px;
+top:1785px;
+z-index: 3;
+}
+.iuktak{
+    text-align: left;
+    left: 730px;
+    top: 1780px ;
+    z-index: 1;
+    position: absolute;
+
+    height: 320px;
+    width: 550px;
+}
+.Cuktak{
+    text-align: left;
+    left: -120px;
+    top: 1480px ;
+    z-index: 4;
+    position: absolute;
+
+    height: 320px;
+    width: 550px;  
+}
+.goru{
+    position: absolute;
+    left:420PX ;
+    top: 380px ;
+    background: none;
+
+}
+@media only  screen and ( max-width: 576px ){
+    .Cuktak{
+        text-align: left;
+    left: -180px;
+    top: 3180px ;
+    z-index: 4;
+    position: absolute;
+background: none;
+    height: 320px;
+    width: 550px;
+    size: 20px;
+   
+    }
+    .HUuktak{
+        background: none;
+        position: absolute;
+        z-index: 5;
+    }
+   
+}
+
+.container {
+    width: 250px;
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -390px;
+    margin-left: 10px;
+    background: none;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+@media (max-width: 576px) {
+   .container {
+       
+        width: 180px;
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: -390px;
+    margin-left: -20px;}
+
+    button {
+        font-size: 14px; 
+        padding: 8px; 
+    }
+    .goru{
+        background: none;
+
+    }
+    h2 {
+        font-size: 18px; /* Reduced font size */
+        text-align: center;
+        margin-bottom: 8px; /* Reduced margin */
+    }
+    label {
+        font-size: 12px; /* Smaller label text */
+        display: block;
+        margin-bottom: 2px; /* Reduced gap between label and input */
+        font-weight: bold;
+    }
+   .madaris{
+    background: none;
+ padding-left: -90%;
+   }
+   input[type="text"],
+   input[type="email"],
+   input[type="password"] {
+       padding: 3px; /* Adjust input padding */
+       width: 100%;; /* Adjust input font size */
+  
+     
+}
+button {
+    font-size: 12px; /* Adjust button font size */
+    padding: 3px; /* Adjust button padding */
+}
+
+}
+
+
