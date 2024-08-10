@@ -1684,7 +1684,7 @@ left:-410px ;
     .custom-box-99{
         position: absolute;
 width: 353px;
-height: 1888px;
+height: 1188px;
 top: 5970px;
 display: flex;
 flex-direction: column;
@@ -2054,8 +2054,7 @@ z-index: 103;
     position: absolute;
     width: 47px;
     height: 17px;
-    left: 
-    845px;
+    left: 45px;
     top: 3540px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -2065,4 +2064,454 @@ z-index: 103;
     letter-spacing: 0%;
     text-align: left;
     z-index: 103; 
+}
+.custom-box-100{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(34, 34, 34); 
+    border: 1px solid rgb(34, 34, 34); 
+    margin: 20px auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    z-index: 60;
+    top: 3600px;
+    left: 0px;
+   
+}
+.Fitness-mara{
+    position: absolute;
+    z-index: 170;
+width: 256px;
+height: 84px;
+top: 3630px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Fitness-paragraph{
+    position: absolute;
+    z-index: 170;
+    width: 443px;
+    top: 3730px;
+height: 72px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+@media screen and (max-width: 576px){
+    .custom-box-100{
+        position: absolute;
+        width: 100%;
+        height: 986px;
+        left: 0;
+        top: 7200px;
+        background: rgba(255, 255, 255, 0.1);
+    }  
+    .Fitness-mara{
+        position: absolute;
+width: 256px;
+height: 84px;
+top: 7200px;
+color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    } 
+    .Fitness-paragraph{
+        position: absolute;
+width: 317px;
+height: 96px;
+top: 7290px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+    }
+    .Get-Started-mara{
+        position: absolute;
+width: 181px;
+height: 38px;
+z-index: 170;
+top: 7300px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+}
+.Get-Started-mara{
+    position: absolute;
+width: 181px;
+height: 38px;
+left: 670px ;
+top: 3680px;
+z-index: 170;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-1{
+    left: 670px ;
+top: 3720px;
+z-index: 170;
+position: absolute;
+width: 82px;
+height: 28px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-2{
+    left: 670px ;
+top: 3760px;
+z-index: 170;
+position: absolute;
+
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-3{
+    left: 670px ;
+top: 3800px;
+z-index: 170;
+position: absolute;
+
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-4{
+    left: 670px ;
+top: 3840px;
+z-index: 170;
+position: absolute;
+
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+@media screen and (max-width: 576px){
+    .Get-Started-mara{
+        position: absolute;
+    width: 181px;
+    height: 38px;
+    left: 50px ;
+    top: 7400px;
+    z-index: 210;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .Get-Started-paragraph-1{
+        position: absolute;
+        width: 181px;
+        height: 38px;
+        left: 50px ;
+        top: 7440px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .Get-Started-paragraph-2{
+        position: absolute;
+        width: 181px;
+        height: 38px;
+        left: 50px ;
+        top: 7480px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-3{
+    position: absolute;
+       
+        left: 50px ;
+        top: 7520px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Get-Started-paragraph-4{
+    position: absolute;
+       
+    left: 50px ;
+    top: 7560px;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+}
+.Fitness-mara-tara-vara{
+    position: absolute;
+width: 181px;
+height: 38px;
+left: 1000px ;
+top: 3680px;
+z-index: 170;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Fitness-paragraph-1{
+    left: 1000px ;
+top: 3720px;
+z-index: 170;
+position: absolute;
+width: 82px;
+height: 28px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.Fitness-paragraph-2{
+    left: 1000px ;
+    top: 3760px;
+    z-index: 170;
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+.Fitness-paragraph-3{
+    left: 1000px ;
+    top: 3800px;
+    z-index: 170;
+    position: absolute;
+ 
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+.Fitness-paragraph-4{
+    left: 1000px ;
+    top: 3840px;
+    z-index: 170;
+    position: absolute;
+ 
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+@media screen and (max-width: 576px){
+    .Fitness-mara-tara-vara{
+        position: absolute;
+    width: 181px;
+    height: 38px;
+    left: 50px ;
+    top: 7610px;
+    z-index: 210;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .Fitness-paragraph-1{
+        position: absolute;
+       
+        left: 50px ;
+        top: 7660px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .Fitness-paragraph-2{
+        position: absolute;
+       
+        left: 50px ;
+        top: 7700px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .Fitness-paragraph-3{
+        position: absolute;
+       
+        left: 50px ;
+        top: 7740px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .Fitness-paragraph-4{
+        position: absolute;
+       
+        left: 50px ;
+        top: 7780px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+    }  
+    
+    .all-right-paragraph-1{
+        position: absolute;
+       
+        left: 50px ;
+        top: 7820px;
+        color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left; 
+    }
+}
+.custom-box-798{
+    z-index: 800;
+position: absolute;
+width: 1000px;
+height: 0;
+left: 100px;
+top: 3950px;
+border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.all-right-paragraph-1{
+    left: 500px ;
+    top: 3970px;
+    z-index: 170;
+    position: absolute;
+ 
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+
+    text-align: left; 
+}
+@media screen and (max-width: 576px){
+    .custom-box-798 {
+        position: absolute;
+        z-index: 200;
+        
+        width: 354px;
+        height: 0;
+        left: 19px;
+top: 7900px;
+border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+}
+@media screen and (max-width: 576px){
+.all-right-paragraph-1{
+    position: absolute;
+
+left: 18px;
+top: 7920px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+
+
+
+}
 }
