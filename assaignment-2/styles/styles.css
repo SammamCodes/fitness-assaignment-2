@@ -1624,7 +1624,7 @@ text-align: center;
 
 
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .Meet-Our-Team-mara {
         color: rgb(255, 255, 255);
         font-family: Inter;
@@ -1665,3 +1665,404 @@ top:2890px;
 left:-410px ;
     }
   }
+  .custom-box-99{
+    width: 900px;
+    height: 450px;
+    background-color:rgb(34, 34, 34); 
+    border: 1px solid rgb(34, 34, 34); 
+    margin: 20px auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    z-index: 60;
+    top: 3100px;
+    left: 215px;
+    border-radius: 18px;
+  }
+  @media screen and (max-width: 576px){
+    .custom-box-99{
+        position: absolute;
+width: 353px;
+height: 1888px;
+top: 5970px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 20px;
+left: 15px;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 20px;
+    }
+  }
+  .ninth-img{
+position: absolute;
+width: 270px;
+height: 200px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 0px;
+top: 3110px;
+z-index: 101;
+left: 230px;
+border-radius: 18px;
+  }
+  .Jerome-E-mara{
+    position: absolute;
+width: 117px;
+height: 24px;
+left: 240px;
+top: 3285px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+z-index: 102;
+  }
+  .Jerome-E-paragraph{
+    position: absolute;
+width: 47px;
+height: 17px;
+left: 240px;
+top: 3305px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+z-index: 102;
+  }
+  @media screen and (max-width: 576px){
+    .ninth-img{
+
+position: absolute;
+width: 313px;
+height: 272px;
+top: 5980px;
+left: 55px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 0px;
+    }
+    .Jerome-E-mara{
+        top: 6220px;
+left: 55px;
+position: absolute;
+z-index: 102;
+    }
+    .Jerome-E-paragraph{
+        top: 6250px;
+left: 65px;
+position: absolute;
+z-index: 102;
+    }
+  }
+.ten-img{
+    position: absolute;
+width: 270px;
+height: 200px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 0px;
+top: 3110px;
+z-index: 101;
+left: 530px;
+border-radius: 18px;
+}
+.Cameroon-Will-mara{
+    position: absolute;
+    
+   
+   
+    left: 240px;
+    top: 3280px;
+    color: rgb(255, 255, 255);
+    left: 550px;
+    top: 3285px;
+
+    font-family: Inter;
+    font-size: 18px;
+   
+    text-align: left;
+    z-index: 103;
+    }  
+.Cameroon-Will-paragraph{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 550px;
+    top: 3305px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 103;
+}
+@media screen and (max-width: 576px){
+   .ten-img{position: absolute;
+    width: 313px;
+    height: 272px;
+    top: 6270px;
+    left: 55px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;} 
+    .Cameroon-Will-mara{
+        top: 6500px;
+left: 55px;
+position: absolute;
+z-index: 103;
+    }
+    .Cameroon-Will-paragraph{
+        top: 6530px;
+        left: 55px;
+        position: absolute;
+        z-index: 103;  
+    }
+}
+.eleven-img{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    top: 3110px;
+    z-index: 101;
+    left: 830px;
+    border-radius: 18px;
+}
+.Darrel-Stayward-mara{
+    position: absolute;
+    top: 3280px;
+    color: rgb(255, 255, 255);
+    left: 840px;
+    top:  3285px;
+
+    font-family: Inter;
+    font-size: 18px;
+   
+    text-align: left;
+    z-index: 103;  
+}
+.Darrel-Stayward-paragraph{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 840px;
+    top: 3305px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 103;
+}
+@media screen and (max-width: 576px){
+    .eleven-img{
+        position: absolute;
+    width: 313px;
+    height: 272px;
+    top: 6560px;
+    left: 55px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    }
+    .Darrel-Stayward-mara{
+        top: 6790px;
+        left: 55px;
+        position: absolute;
+        z-index: 103;
+    }
+    .Darrel-Stayward-paragraph{
+        top: 6820px;
+        left: 55px;
+        position: absolute;
+        z-index: 103;  
+    }
+}
+.twelve-img{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    top: 3340px;
+    z-index: 101;
+    left:  230px;
+    border-radius: 18px;
+}
+.Dianne-Russel-mara{
+    position: absolute;
+    top: 3280px;
+    color: rgb(255, 255, 255);
+    left: 245px;
+    top:  3520px;
+
+    font-family: Inter;
+    font-size: 18px;
+   
+    text-align: left;
+    z-index: 103;   
+}
+.Dianne-Russel-paragraph{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 245px;
+    top: 3540px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 103;
+}
+@media screen and (max-width: 576px){
+    
+    .twelve-img{
+        position: absolute;
+        width: 313px;
+        height: 272px;
+        top: 6850px;
+        left: 55px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    
+    .Dianne-Russel-mara{
+        top: 7080px;
+        left: 55px;
+        position: absolute;
+        z-index: 103;
+    }
+    .Dianne-Russel-paragraph{
+        top: 7110px;
+        left: 55px;
+        position: absolute;
+        z-index: 103;   
+    }
+}
+.thirteen-img{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    top: 3340px;
+    z-index: 101;
+    left:  530px;
+    border-radius: 18px;
+}
+.Cody-Fisher-mara{
+    position: absolute;
+    top: 3280px;
+    color: rgb(255, 255, 255);
+    left: 545px;
+    top:  3520px;
+
+    font-family: Inter;
+    font-size: 18px;
+   
+    text-align: left;
+    z-index: 103;   
+}
+.Cody-Fisher-paragraph{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 545px;
+    top: 3540px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 103;
+}
+.fotteen-img{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+    top: 3340px;
+    z-index: 101;
+    left:  830px;
+    border-radius: 18px; 
+}
+.Theresa-Webb-mara{
+    position: absolute;
+    top: 3280px;
+    color: rgb(255, 255, 255);
+    left: 845px;
+    top:  3520px;
+
+    font-family: Inter;
+    font-size: 18px;
+   
+    text-align: left;
+    z-index: 103;   
+}
+.Theresa-Webb-paragraph{
+    position: absolute;
+    width: 47px;
+    height: 17px;
+    left: 
+    845px;
+    top: 3540px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 103; 
+}
